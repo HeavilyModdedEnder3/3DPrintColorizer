@@ -23,49 +23,49 @@ class PenColorizer(Script):
                     "description": "Use the 3DPrintColorizer for painting or easier support removal?",
                     "type": "enum",
                     "options": {"color": "Colorize", "support": "Support Removal"},
-                    "default_value": "color"
+                    "default_value": "Support Removal"
                 },
                 "PenXOffset":
                 {
                     "label": "Pen X Offset",
                     "description": "Offset of your pen in X direction",
                     "type": "float",
-                    "default_value": 36.1
+                    "default_value": 49.2
                 },
                 "PenYOffset":
                 {
                     "label": "Pen Y Offset",
                     "description": "Offset of your pen in Y direction",
                     "type": "float",
-                    "default_value": 45.8
+                    "default_value": -1.4
                 },
                 "PenZOffset":
                 {
                     "label": "Pen Z Offset",
                     "description": "Offset of your pen in Z direction",
                     "type": "float",
-                    "default_value": 3.2
+                    "default_value": 1.7
                 },
                 "FirstPenXPosition":
                 {
                     "label": "First Pen X Position",
                     "description": "X position for holding the first pen in the pen rack",
                     "type": "float",
-                    "default_value": 28.0
+                    "default_value": 135.8
                 },
                 "FirstPenZPosition":
                 {
                     "label": "First Pen Z Position",
                     "description": "Z position for holding the first pen in the pen rack",
                     "type": "float",
-                    "default_value": 238.0
+                    "default_value": 240.0
                 },
                 "ExtraRetraction":
                 {
                     "label": "Retraction durint painting",
                     "description": "Extra amount of retraction durint painting",
                     "type": "float",
-                    "default_value": 5.5
+                    "default_value": 7
                 },
                 "Interlace":
                 {
